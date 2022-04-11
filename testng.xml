@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Edvora">
+  <test thread-count="5" name="App Test">
+    <classes>
+      <class name="com.Edvora.testCases.TS002_Login"/>
+      <class name="com.Edvora.testCases.TS001_Register"/>
+     <class name="com.Edvora.testCases.TS003_Settings"/>
+    </classes>
+  </test> <!-- App Test -->
+</suite> <!-- Edvora -->
